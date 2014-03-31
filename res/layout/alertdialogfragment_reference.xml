@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdialog"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/WrapMargin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <!-- Cerio -->
+
+        <TextView
+            style="@style/Wrap.Head"
+            android:text="@string/cerio" />
+
+        <TextView
+            style="@style/Wrap.Sub"
+            android:text="@string/ceriojob" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/cebu" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/ceriocontact" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/cerioemail" />
+
+        <View
+            android:id="@+id/div1"
+            style="@style/SeperatorAbout" />
+        <!-- Mesael -->
+
+        <TextView
+            style="@style/Wrap.Head"
+            android:text="@string/mesael" />
+
+        <TextView
+            style="@style/Wrap.Sub"
+            android:text="@string/mesaeljob" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/talisay" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/mesaelcontact" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/mesaelemail" />
+
+        <View
+            android:id="@+id/div1"
+            style="@style/SeperatorAbout" />
+        <!-- Bhans -->
+
+        <TextView
+            style="@style/Wrap.Head"
+            android:text="@string/geno" />
+
+        <TextView
+            style="@style/Wrap.Sub"
+            android:text="@string/genojob" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/talisay" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/genocontact" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/genoemail" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdialog"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/WrapMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/acclabel"/>
+        <View
+            android:id="@+id/sep1"
+            style="@style/SeperatorAbout" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/acc1" />
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/acc2"/>
+
+        <TextView
+            style="@style/Wrap.SubSub"
+            android:text="@string/acc3"/>
+    </LinearLayout>
+
+</LinearLayout>

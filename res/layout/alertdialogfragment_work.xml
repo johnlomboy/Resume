@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdialog"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/WrapMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- ####################### Creweb ####################### -->
+
+        <TextView
+            android:id="@+id/creweb"
+            style="@style/Wrap.Head"
+            android:text="@string/creweb" />
+
+        <TextView
+            android:id="@+id/crewebtime"
+            style="@style/Wrap.Sub"
+            android:layout_alignBaseline="@+id/creweb"
+            android:layout_alignParentRight="true"
+            android:text="@string/crewebtime"/>
+
+        <TextView
+            android:id="@+id/crewebposition"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/creweb"
+            android:text="@string/crewebposition" />
+
+        <View
+            android:id="@+id/sep1"
+            style="@style/SeperatorAbout"
+            android:layout_below="@+id/crewebposition" />
+
+        <TextView
+            android:id="@+id/crewebdesc"
+            style="@style/Wrap.SubSub"
+            android:layout_below="@+id/sep1"
+            android:text="@string/crewebdesc" />
+
+        <!-- ####################### Work From Home ####################### -->
+
+        <TextView
+            android:id="@+id/wfh"
+            style="@style/Wrap.Head"
+            android:layout_below="@+id/crewebdesc"
+            android:text="@string/wfh" />
+
+        <TextView
+            android:id="@+id/wfhtime"
+            style="@style/Wrap.Sub"
+            android:layout_alignBaseline="@+id/wfh"
+            android:layout_alignParentRight="true"
+            android:text="@string/wfhtime" />
+
+        <TextView
+            android:id="@+id/wfhposition"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/wfh"
+            android:text="@string/wfhposition" />
+
+        <View
+            android:id="@+id/sep2"
+            style="@style/SeperatorAbout"
+            android:layout_below="@+id/wfhposition" />
+
+        <TextView
+            android:id="@+id/wfh1name"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/sep2"
+            android:text="@string/wfh1name" />
+
+        <TextView
+            android:id="@+id/wfh1description"
+            style="@style/Wrap.SubSub"
+            android:layout_below="@+id/wfh1name"
+            android:text="@string/wfh1description"/>
+
+        <TextView
+            android:id="@+id/wfh2name"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/wfh1description"
+            android:text="@string/wfh2name" />
+
+        <TextView
+            android:id="@+id/wfh2description"
+            style="@style/Wrap.SubSub"
+            android:layout_below="@+id/wfh2name"
+            android:text="@string/wfh2description"/>
+
+        <TextView
+            android:id="@+id/wfh3name"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/wfh2description"
+            android:text="@string/wfh3name"/>
+
+        <TextView
+            android:id="@+id/wfh3description"
+            style="@style/Wrap.SubSub"
+            android:layout_below="@+id/wfh3name"
+            android:text="@string/wfh3description"
+             />
+
+        <TextView
+            android:id="@+id/wfh4name"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/wfh3description"
+            android:text="@string/wfh4name" />
+
+        <TextView
+            android:id="@+id/wfh4description"
+            style="@style/Wrap.SubSub"
+            android:layout_below="@+id/wfh4name"
+            android:text="@string/wfh4description"/>
+
+        <TextView
+            android:id="@+id/wfh5name"
+            style="@style/Wrap.Sub"
+            android:layout_below="@+id/wfh4description"
+            android:text="@string/wfh5name"/>
+
+        <TextView
+            android:id="@+id/wfh5description"
+            style="@style/Wrap.SubSub"
+            android:layout_below="@+id/wfh5name"
+            android:text="@string/wfh5description" />
+    </RelativeLayout>
+
+</LinearLayout>

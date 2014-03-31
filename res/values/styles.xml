@@ -1,0 +1,144 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Wrap.MainHead">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainSub">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="Wrap.MainSubSub">
+        <item name="android:layout_marginLeft">200dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#AADDEEDD</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="MainFont">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="MainFont.Head">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="MainFont.Sub">
+        <item name="android:paddingRight">11sp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Seperator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ff00a3d4</item>
+    </style>
+
+    <style name="Wrap.Image">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <!-- ############# SKILL ############# -->
+    <style name="SkillView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SkillView.Margin">
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+    <style name="SkillView.Image">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <!-- ############# SKILL ############# -->
+
+
+    <!-- ############# ABOUT ############# -->
+
+    <style name="SeperatorAbout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#e75555</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="WrapMargin">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="Wrap.GridView">
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:columnWidth">50dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:horizontalSpacing">5dp</item>
+        <item name="android:numColumns">4</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">5dp</item>
+    </style>
+
+    <style name="Wrap.Head">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#f06e40</item>
+    </style>
+
+    <style name="Wrap.Sub">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Wrap.SubSub">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#e9a58c</item>
+    </style>
+
+    <!-- ############# ABOUT ############# -->
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="30dp" >
+
+    <ImageView
+        android:id="@+id/iv"
+        style="@style/Wrap.Image"
+        android:background="@drawable/unknown" />
+
+    <!-- #### Seperator ####-->
+
+    <View
+        android:id="@+id/div1"
+        style="@style/SeperatorAbout"
+        android:layout_below="@+id/iv" />
+    
+    <!-- #### details ####-->
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Wrap.Sub"
+        android:layout_below="@+id/div1"
+        android:text="@string/namelabel" />
+
+    <TextView
+        android:id="@+id/txtname"
+        style="@style/Wrap.Head"
+        android:layout_below="@+id/name"
+        android:layout_marginBottom="10dp"
+        android:text="@string/fullname" />
+
+    <TextView
+        android:id="@+id/dob"
+        style="@style/Wrap.Sub"
+        android:layout_below="@+id/txtname"
+        android:text="@string/doblabel" />
+
+    <TextView
+        android:id="@+id/txtdob"
+        style="@style/Wrap.Head"
+        android:layout_below="@+id/dob"
+        android:text="@string/dob" />
+
+    <TextView
+        android:id="@+id/add"
+        style="@style/Wrap.Sub"
+        android:layout_below="@+id/txtdob"
+        android:layout_marginTop="10dp"
+        android:text="@string/addresslabel" />
+
+    <TextView
+        android:id="@+id/txtadd"
+        style="@style/Wrap.Head"
+        android:layout_below="@+id/add"
+        android:text="@string/address" />
+
+</RelativeLayout>
